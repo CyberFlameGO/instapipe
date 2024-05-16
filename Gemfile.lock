@@ -82,7 +82,8 @@ GEM
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
     retriable (3.1.2)
-    rexml (3.2.5)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
     ruby2_keywords (0.0.5)
     sequel (5.59.0)
     signet (0.17.0)
@@ -95,6 +96,7 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.2.2)
       tilt (~> 2.0)
+    strscan (3.1.0)
     telegram-bot-ruby (0.21.0)
       dry-inflector
       faraday (~> 2.0)
@@ -112,6 +114,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bundler
